@@ -39,10 +39,6 @@
 
 <img src="images/screenshot00.png" alt="screenshot" height="500">
 
-- Mobile:
-
-<img src="images/screenshot01.png" alt="screenshot" height="500">&nbsp;&nbsp;<img src="images/screenshot2.png" alt="screenshot" height="500">
-
 See demo here: https://wy-chan.github.io/devchallenges_ButtonComponent/
 
 I created a page based on the given design.
@@ -51,7 +47,7 @@ I created a page based on the given design.
 
 - HTML
 - CSS
-- JavaScript
+- Bootstrap
 
 ## Features
 
