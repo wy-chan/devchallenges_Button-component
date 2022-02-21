@@ -37,7 +37,7 @@
 
 ## Overview
 
-<img src="main/images/screenshot_button.png" alt="screenshot" height="300">
+<img src="https://raw.githubusercontent.com/wy-chan/devchallenges_ButtonComponent/main/images/screenshot_button.png" alt="screenshot" height="300">
 
 See demo here: https://wy-chan.github.io/devchallenges_ButtonComponent/
 
