@@ -24,7 +24,7 @@ nav{
 nav .nav-link{
   color: #9E9E9E;
 }
-.link-active, .nav-link:hover{
+nav .link-active, nav  .nav-link:hover{
   color: #090F31;
   font-weight: bold;
 }
