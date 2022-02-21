@@ -37,11 +37,11 @@
 
 ## Overview
 
-<img src="images/screenshot00.png" alt="screenshot" height="500">
+<img src="images/screenshot_button.png" alt="screenshot" height="300">
 
 See demo here: https://wy-chan.github.io/devchallenges_ButtonComponent/
 
-I created a page based on the given design.
+Create a reusable button with all the states in the design and a page displaying all the states.
 
 ### Built With
 
