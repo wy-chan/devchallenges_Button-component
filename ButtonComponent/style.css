@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500&family=Ubuntu+Mono&display=swap');
+
+body{
+  width:100%;
+  min-height: 100vh;
+  font-family: Montserrat;
+  font-style: normal;
+  margin:0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Ubuntu Mono;
+}
+main{
+  margin:0;
+  width:90%;
+  margin-top:40px;
+  margin-left: 5%;
+}
+h1{
+  margin:0;
+  padding: 0;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+p, span{
+  font-size: 12px;
+}
+.btn>.material-icons{
+  font-size: 12px;
+}
+.btn.btn-icon{
+  display: flex;
+  align-items: center;
+  column-gap:10px;
+}
+.notes{
+  color: #828282;
+}
+.button-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 22.5px auto;
+}
+.button-box{
+  width:236px;
+}
+.button-box-L{
+  width:332px;
+}
+
+.btn{
+border-radius: 6px;
+font-size: 14px;
+font-weight: 500;
+}
+.btn.btn-default{
+background: #E0E0E0;
+}
+.btn.btn-default,.btn.btn-primary, .btn.btn-secondary, .btn.btn-danger{
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+.btn.btn-default, .btn.btn-primary, .btn.btn-secondary, .btn.btn-danger, .btn.btn-link, .btn.btn-outline-primary{
+  font-size: 14px;
+}
+.btn.btn-primary, .btn.btn-secondary, .btn.btn-danger{
+  color: white;
+}
+.btn.no-shadow{
+  box-shadow: none;
+}
+.btn.btn-default:hover, .btn.btn-default:focus, .btn.default-hover{
+background: #AEAEAE;  
+}
+.btn.btn-outline-primary:hover, .btn.btn-outline-primary:focus, .btn.primary-focus{
+background: rgba(41, 98, 255, 0.1);
+color: #3D5AFE;
+}
+.btn.btn-link{
+  text-decoration: none;
+}
+.btn.btn-link:hover, .btn.btn-link:focus, .btn.link-hover{
+  background: rgba(41, 98, 255, 0.1);
+  text-decoration: none;
+  color: #3D5AFE;
+}
+.btn.btn-primary:hover,.btn.btn-primary:focus, .btn.primary-hover{
+ background: #0039CB;  
+}
+.btn.btn-secondary:hover,.btn.btn-secondary:focus, .btn.secondary-hover{
+background: #1C313A; 
+}
+.btn.btn-danger:hover,.btn.btn-danger:focus, .btn.danger-hover{
+background: #9A0007;
+}
+
+footer{
+padding-bottom: 24px;  
+width: 100%;
+text-align: center;
+}
+
+em{
+  font-style: normal;
+  font-weight: bold;
+}
+
+
