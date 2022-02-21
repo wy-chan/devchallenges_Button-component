@@ -88,6 +88,8 @@ color: #3D5AFE;
 }
 .btn-link:hover, .btn-link:focus, .link-hover{
   background: rgba(41, 98, 255, 0.1);
+  text-decoration: none;
+  color: #3D5AFE;
 }
 .btn-primary:hover,.btn-primary:focus, .primary-hover{
  background: #0039CB;  
