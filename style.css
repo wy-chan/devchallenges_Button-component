@@ -38,7 +38,7 @@ p, span{
 .btn>.material-icons{
   font-size: 12px;
 }
-.btn-icon{
+.btn.btn-icon{
   display: flex;
   align-items: center;
   column-gap:10px;
