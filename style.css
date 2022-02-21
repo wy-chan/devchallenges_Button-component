@@ -35,7 +35,7 @@ font-size: 12px;
 p, span{
   font-size: 12px;
 }
-.material-icons{
+.btn>.material-icons{
   font-size: 12px;
 }
 .btn-icon{
