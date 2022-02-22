@@ -1,3 +1,5 @@
+import Inputs from './ButtonComponent/Inputs.js'; 
+import Buttons from './ButtonComponent/Buttons.js'; 
 
 class MyApp extends React.Component{
   constructor(props){
