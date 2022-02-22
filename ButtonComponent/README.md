@@ -48,6 +48,8 @@ Create a reusable button with all the states in the design and a page displaying
 - HTML
 - CSS
 - Bootstrap
+- JavaScript
+- React
 
 ## Features
 
