@@ -135,4 +135,3 @@ class Buttons extends React.Component{
   }
 };
 
-export default Buttons;
