@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Input from './InputComponent/Inputs'
-import Input from './ButtonComponent/Buttons'
+import Button from './ButtonComponent/Buttons'
 
 class MyApp extends React.Component{
   constructor(props){
