@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 import Inputs from './ButtonComponent/Inputs'; 
 import Buttons from './ButtonComponent/Buttons'; 
 
