@@ -11,3 +11,4 @@ class Inputs extends React.Component{
     )
   };
 };
+export default Inputs;
