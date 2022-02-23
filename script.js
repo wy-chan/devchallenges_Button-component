@@ -1,5 +1,5 @@
-import Inputs from './ButtonComponent/Inputs.js'; 
-import Buttons from './ButtonComponent/Buttons.js'; 
+import Inputs from './ButtonComponent/Inputs'; 
+import Buttons from './ButtonComponent/Buttons'; 
 
 class MyApp extends React.Component{
   constructor(props){
