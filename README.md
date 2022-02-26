@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-## Content
+## Contents
    
    - <a href="#button">Button Component</a>
    - <a href="#input">Input Component</a>
