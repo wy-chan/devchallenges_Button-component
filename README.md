@@ -1,9 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h2>Design system challenges<h2>
-<div align="center">
-   Solution for a challenges from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
-</div>
+<h2>Content<h2>
    
    - <a href="#button">Button Component</a>
    - <a href="#input">Input Component</a>
