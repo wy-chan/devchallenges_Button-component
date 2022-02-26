@@ -1,6 +1,15 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Button Component</h1>
+<h2>Design system challenges<h2>
+<div align="center">
+   Solution for a challenges from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
+   
+   - <a href="#button">Button Component</a>
+   - <a href="#input">Input Component</a>
+   
+
+<h1 align="center" id="button">Button Component</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -85,7 +94,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Input Component</h1>
+<h1 align="center" id="input">Input Component</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
