@@ -14,11 +14,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://wy-chan.github.io/devchallenges_ButtonComponent">
+    <a href="https://wy-chan.github.io/devchallenges_components">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/wy-chan/devchallenges_ButtonComponent">
+    <a href="https://github.com/wy-chan/devchallenges_components">
       Solution
     </a>
     <span> | </span>
@@ -45,7 +45,7 @@
 
 <img src="images/screenshot_button.png" alt="screenshot" height="300">
 
-See demo here: https://wy-chan.github.io/devchallenges_ButtonComponent/
+See demo here: https://wy-chan.github.io/devchallenges_components/
 
 Create a reusable button with all the states in the design and a page displaying all the states.
 
@@ -99,11 +99,11 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 <div align="center">
   <h3>
-    <a href="https://wy-chan.github.io/devchallenges_ButtonComponent">
+    <a href="https://wy-chan.github.io/devchallenges_components">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/wy-chan/devchallenges_ButtonComponent">
+    <a href="https://github.com/wy-chan/devchallenges_components">
       Solution
     </a>
     <span> | </span>
@@ -130,7 +130,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 <img src="" alt="screenshot" height="300">
 
-See demo here: https://wy-chan.github.io/devchallenges_ButtonComponent/
+See demo here: https://wy-chan.github.io/devchallenges_components/
 
 Create a reusable input with all the states in the design and a page displaying all the states. 
 
