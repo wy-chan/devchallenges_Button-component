@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://wy-chan.github.io/devchallenges_ButtonComponent">
+    <a href="https://wy-chan.github.io/devchallenges_components">
       Demo
     </a>
     <span> | </span>
@@ -39,7 +39,7 @@
 
 <img src="images/screenshot_button.png" alt="screenshot" height="300">
 
-See demo here: https://wy-chan.github.io/devchallenges_ButtonComponent/
+See demo here: https://wy-chan.github.io/devchallenges_components/
 
 Create a reusable button with all the states in the design and a page displaying all the states.
 
