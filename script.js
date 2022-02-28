@@ -2,14 +2,14 @@ class MyApp extends React.Component{
   constructor(props){
     super(props);
     this.state={
-      currentPage: "Buttons",
-      currentBtnId: "nav-buttons"
+      currentPage: "Inputs",
+      currentBtnId: "nav-inputs"
     }; 
     this.handlePage=this.handlePage.bind(this);
     this.showPage=this.showPage.bind(this);
     this.closeButton=this.closeButton.bind(this);
     this.showButton=this.showButton.bind(this);
-  };
+  }
 
   handlePage(event){
     this.closeButton(this.state.currentBtnId);
@@ -36,7 +36,6 @@ class MyApp extends React.Component{
     var e=document.getElementById(id);
     e.classList.remove("link-active");
   }
-    
   showButton(id){
     var e=document.getElementById(id);
     e.classList.add("link-active");
@@ -58,8 +57,9 @@ class MyApp extends React.Component{
 {this.showPage()}
 </main>
 </div>
+ 
   )
-  };
+  }
 }
 
 class Buttons extends React.Component{
@@ -217,12 +217,12 @@ class Inputs extends React.Component{
       <div class="input-box">
       <p class="notes">&:hover</p> 
       <p class="label">Label</p> 
-     <input placeholder="Placeholder" class="input-default"/> 
+     <input placeholder="Placeholder" class="input-default input-default-hover"/> 
     </div>
       <div class="input-box">
       <p class="notes">&:focus</p> 
       <p class="label">Label</p> 
-     <input placeholder="Placeholder" class="input-default"/> 
+     <input placeholder="Placeholder" class="input-default input-default-focus"/> 
     </div>
     </div>
     <div class="button-group">
