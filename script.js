@@ -20,9 +20,9 @@ class MyApp extends React.Component{
       currentBtnId: event.target.id
     });
     
-    this.showPage();
+    /*this.showPage();*/
   }
-  
+  /*
   showPage(){
     switch(this.state.currentPage){
       case"Inputs": 
@@ -31,7 +31,7 @@ class MyApp extends React.Component{
       default: return <Buttons />
     }
   }
- 
+ */
   closeButton(id){
     var e=document.getElementById(id);
     e.classList.remove("link-active");
@@ -54,7 +54,7 @@ class MyApp extends React.Component{
 </ul>
 </nav>
 <main>
-{this.showPage()}
+<Inputs/>
 </main>
 </div>
  
