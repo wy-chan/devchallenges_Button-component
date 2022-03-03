@@ -18,4 +18,4 @@ class MyApp extends React.Component{
 
 
 
-ReactDOM.render(<MyApp />, document.getElementById('myApp'));
+ReactDOM.render(<MyApp/>, document.getElementById('myApp'));
