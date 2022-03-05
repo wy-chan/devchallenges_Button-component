@@ -68,7 +68,7 @@ class Buttons extends React.Component{
   }
   render(){
     return(
-    <div id="buttons-div">
+    <section id="buttons-div">
     <h1>Buttons</h1>
     <div class="button-group">
   
@@ -193,7 +193,7 @@ class Buttons extends React.Component{
      </div>
 </div> 
 <p class="notes">Icons: https://material.io/resources/icons/?style=round</p>
-</div>
+<section>
     )
   }
 }
