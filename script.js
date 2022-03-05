@@ -210,44 +210,44 @@ class Inputs extends React.Component{
     <div class="input-box">
       <p class="notes">&lt;Input /&gt;</p> 
       <div class="input-label-box">
-      <input placeholder="Placeholder" class="input-default" />
-      <label class="label" id="input-default">Label</label> 
+      <input placeholder="Placeholder" class="input-default input-default-size" />
+      <label class="label">Label</label> 
     </div>
       </div>
       <div class="input-box">
       <p class="notes">&:hover</p> 
              <div class="input-label-box"> 
-     <input placeholder="Placeholder" class="input-default input-default-hover"/> 
-        <label class="label" id="input-default">Label</label> 
+     <input placeholder="Placeholder" class="input-default input-default-size input-default-hover"/> 
+        <label class="label">Label</label> 
     </div>
       </div>
       <div class="input-box">
       <p class="notes">&:focus</p> 
               <div class="input-label-box">
-     <input placeholder="Placeholder" class="input-default input-default-focus"/> 
-      <label class="label" id="input-default">Label</label> 
+     <input placeholder="Placeholder" class="input-default input-default-size input-default-focus"/> 
+      <label class="label">Label</label> 
     </div>
      </div>
     </div>
     <div class="button-group">
     <div class="input-box">
-      <p class="notes">&:focus</p> 
+      <p class="notes">&lt;Input error /&gt;</p> 
               <div class="input-label-box">
-     <input placeholder="Placeholder" class="input-default input-error"/> 
-      <label class="label" id="input-default">Label</label> 
+     <input placeholder="Placeholder" class="input-default input-default-size input-error"/> 
+      <label class="label">Label</label> 
     </div>
      </div>
       <div class="input-box">
       <p class="notes">&:focus</p> 
               <div class="input-label-box">
-     <input placeholder="Placeholder" class="input-default input-error-hover"/> 
-      <label class="label" id="input-default">Label</label> 
+     <input placeholder="Placeholder" class="input-default input-default-size input-error-hover"/> 
+      <label class="label">Label</label> 
     </div>
      </div><div class="input-box">
       <p class="notes">&:focus</p> 
               <div class="input-label-box">
-     <input placeholder="Placeholder" class="input-default input-error input-error-focus"/> 
-      <label class="label" id="input-default">Label</label> 
+     <input placeholder="Placeholder" class="input-default input-default-size input-error input-error-focus"/> 
+      <label class="label">Label</label> 
     </div>
      </div>
     </div>
@@ -255,74 +255,98 @@ class Inputs extends React.Component{
     <div class="input-box">
       <p class="notes">&lt;Input disabled /&gt;</p> 
       <p class="label">Label</p> 
-     <input placeholder="Placeholder" class="input-default" disabled/>
+      <input placeholder="Placeholder" class="input-default input-default-size" disabled/>
     </div>
     </div>
     <div class="button-group">
-    <div class="input-box">
+   <div class="input-box-L">
       <p class="notes">&lt;Input helperText=”Some interesting text” /&gt;</p> 
-      <p class="label">Label</p> 
-     <input placeholder="Placeholder" class="input-default"/>
+      <div class="input-label-box">
+      <span class="help-block">Some interesting text</span>
+      <input placeholder="Placeholder" class="input-default input-default-size" />
+      <label class="label">Label</label> 
     </div>
-      <div class="input-box">
+      </div>
+      <div class="input-box-L">
       <p class="notes">&lt;Input helperText=”Some interesting text” error /&gt;</p> 
-      <p class="label">Label</p> 
-     <input placeholder="Placeholder" class="input-default"/> 
+   <div class="input-label-box">
+      <span class="help-block help-text-error">Some interesting text</span>
+      <input placeholder="Placeholder" class="input-default input-default-size input-error input-error-focus" />
+      <label class="label">Label</label> 
     </div>
+      </div>
     </div>
     <div class="button-group">
-    <div class="input-box">
-      <p class="notes">&lt;Input startIcon /&gt;</p> 
-      <p class="label">Label</p> 
-       <div class="input-default">
-       <span class="material-icons">call</span>
-     <input placeholder="call" class="input-with-icon"/>
-       </div>
+    <div class="input-box-L">
+      <p class="notes">&lt;Input startIcon /&gt;</p>
+      <div class="input-label-box">
+      <div class="input-icon-box">
+      <span class="material-icons input-icon input-icon-start">call</span>
+      </div>
+      <input placeholder="Placeholder" class="input-default input-default-size input-with-icon-start"/>
+      <label class="label">Label</label> 
+      </div>
     </div>
-      <div class="input-box">
+      <div class="input-box-L">
       <p class="notes">&lt;Input endIcon /&gt;</p> 
-      <p class="label">Label</p> 
-     <input placeholder="Placeholder" class="input-default"/> 
+      <div class="input-label-box">
+      <div class="input-icon-box">
+      <span class="material-icons input-icon input-icon-end">lock</span>
+      </div>
+      <input placeholder="Placeholder" class="input-default input-default-size"/>
+      <label class="label">Label</label> 
+    </div>
     </div>
     </div>
     <div class="button-group">
     <div class="input-box">
       <p class="notes">&lt;Input value=”text” /&gt;</p> 
-      <p class="label">Label</p> 
-     
-     <input placeholder="Placeholder" value="Text" class="input-default"/>
+      <div class="input-label-box">
+      <input placeholder="Placeholder" value="Text" class="input-default input-default-size"/>
+      <label class="label">Label</label> 
       </div>
+    </div>
     </div>
     <div class="button-group">
     <div class="input-box">
       <p class="notes">&lt;Input size=”sm”  /&gt;</p> 
-      <p class="label">Label</p> 
-     <input placeholder="Placeholder" class="form-control form-control-sm" />
-    </div>
+      <div class="input-label-box">
+     <input placeholder="Placeholder" class="input-default form-control form-control-sm" />
+        <label class="label">Label</label> 
+      </div>
+      </div>
       <div class="input-box">
       <p class="notes">&lt;Input size=”md” /&gt;</p> 
-      <p class="label">Label</p> 
-     <input placeholder="Placeholder" class="form-control form-control-md" /> 
-    </div>
+      <div class="input-label-box">
+      <input placeholder="Placeholder" class="input-default form-control form-control-md" />
+      <label class="label">Label</label> 
+      </div>
+      </div>
       <div class="input-box">
       <p class="notes">&lt;Input size=”lg” /&gt;</p> 
-      <p class="label">Label</p> 
-     <input placeholder="Placeholder" class="form-control form-control-lg" /> 
-    </div>
+      <div class="input-label-box">
+      <input placeholder="Placeholder" class="input-default form-control form-control-lg" /> 
+      <label class="label">Label</label> 
+      </div>
+      </div>
     </div>
     <div class="button-group">
-    <div class="input-box">
+       <div class="input-box-f">
       <p class="notes">&lt;Input fullWidth /&gt;</p> 
-      <p class="label">Label</p> 
-     <input placeholder="Placeholder" value="Text" class=""/>
+      <div class="input-label-box">
+      <input placeholder="Placeholder" class="input-default input-fullwidth" />
+      <label class="label">Label</label> 
     </div>
+      </div>
     </div>
     <div class="button-group">
-    <div class="input-box">
+       <div class="">
       <p class="notes">&lt;Input multiline row=”4” /&gt;</p> 
-      <p class="label">Label</p> 
-     <input placeholder="Placeholder" class=""/>
-    </div>
+      <div class="input-label-box">
+      <textarea placeholder="Placeholder" class="form-control input-default textarea" rows="4" ></textarea>
+      <label class="label">Label</label> 
+      </div>
+      </div>
     </div>
     </section>
     )
