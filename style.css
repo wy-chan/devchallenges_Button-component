@@ -139,9 +139,15 @@ footer em{
   font-weight: bold;
 }
 
+.input-box{
+  width:270px;
+}
+.input-box-L{
+  width:356px;
+}
 .input-label-box{
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;/*label color can only be changed if the label is behind the input, so I put it behind and reversed it.*/
 }
 .label{
   font-size: 12px;
@@ -150,28 +156,91 @@ input{
 border-radius: 8px;
 font-size: 14px;
 }
-.input-default{
+.input-default-size{
   height: 56px;
+  width: 200px;
+}
+
+.input-default{
   border: 1px solid #828282;
   border-radius: 8px;
+  padding-left:12px;
 }
-.input-default:hover{
+.input-default:hover, .input-default-hover, .input-error:hover, .input-error-hover{
   border: 1px solid #333333;
+  + label{
+  color:#333333;
 }
-.input-default:focus{
+}
+.input-default:focus, .input-default-focus{
   outline: none !important;
   border: 1px solid #2962FF;
-}
-.input-default:focus + label{
+  + label{
   color:#2962FF;
 }
-.input-with-icon{
-  height: 50px;
-  border: none;
 }
-.material-icons{
-  font-size: 14px;
+
+.input-default:disabled{
+  outline: none !important;
+  border: none;
+  background: #F2F2F2;
+}
+.input-error, .input-error:focus, .input-error-focus{
+  outline: none !important;
+  border: 1px solid #D32F2F;
+  + label{
+  color:#D32F2F;
+}
+
+}
+
+.help-block{
   color: #828282;
+}
+.help-text-error{
+  color:#D32F2F;
+}
+
+.input-icon-box{
+  display: flex;
+  align-items: center;
+}
+
+.input-with-icon-start{
+padding-left:45px;
+}
+
+.input-icon{
+  font-size: 18px;
+  color: #828282;
+}
+.input-icon-start{
+  position: relative;
+  top:-37px;
+  left:12px;
+}
+.input-icon-end{
+  position: relative;
+  top:-37px;
+  left:172px;
+}
+.form-control:focus{
+    box-shadow:none;
+}
+.form-control-sm, .form-control-md, .form-control-lg{
+  width:200px;
+  font-size:14px;
+}
+.input-box-f{
+  width:100%;
+}
+.input-fullwidth{
+  height:56px;
+}
+.textarea{
+  padding-top:18px;
+  padding-left:12px;
+  line-height:28.5px;
 }
 
 
