@@ -193,7 +193,7 @@ class Buttons extends React.Component{
      </div>
 </div> 
 <p class="notes">Icons: https://material.io/resources/icons/?style=round</p>
-<section>
+</section>
     )
   }
 }
