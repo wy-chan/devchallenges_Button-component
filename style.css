@@ -22,10 +22,10 @@ nav{
   height: 100%;
   text-align: left;
 }
-.nav-link{
+li > .nav-link{
   color: #9E9E9E;
 }
-.link-active, .nav-link:hover{
+li > .link-active, li > .nav-link:hover{
   color: #090F31;
   font-weight: bold;
 }
