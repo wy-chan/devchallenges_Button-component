@@ -1,5 +1,6 @@
-import React from "react"
-import ReactDOM from "react-dom"
+'use strict';
+
+const e = React.createElement;
 
 class MyApp extends React.Component{
   constructor(props){
@@ -11,7 +12,7 @@ class MyApp extends React.Component{
   }
 
   render(){
-    return(
+    return e(
 <div>
 <h1>Heading</h1>
 </div>
@@ -20,5 +21,5 @@ class MyApp extends React.Component{
 }
 
 
-
-ReactDOM.render(<MyApp/>, document.getElementById('myApp'));
+const domContainer = document.querySelector('#myApp');
+ReactDOM.render(e(MyApp), domContainer);
