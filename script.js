@@ -1,7 +1,3 @@
-'use strict';
-
-const e = React.createElement;
-
 class MyApp extends React.Component{
   constructor(props){
     super(props);
@@ -12,14 +8,11 @@ class MyApp extends React.Component{
   }
 
   render(){
-    return e(
+    return(
 <div>
 <h1>Heading</h1>
 </div>
   )
   }
 }
-
-
-const domContainer = document.querySelector('#myApp');
-ReactDOM.render(e(MyApp), domContainer);
+ReactDOM.render(<MyApp />, document.getElementById('myApp'));
