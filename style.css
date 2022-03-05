@@ -210,7 +210,7 @@ font-size: 14px;
 padding-left:45px;
 }
 
-.input-icon{
+div > .input-icon{
   font-size: 18px;
   color: #828282;
 }
@@ -224,10 +224,10 @@ padding-left:45px;
   top:-37px;
   left:172px;
 }
-.form-control:focus{
+div > .form-control:focus{
     box-shadow:none;
 }
-.form-control-sm, .form-control-md, .form-control-lg{
+div > .form-control-sm, div > .form-control-md, div >  .form-control-lg{
   width:200px;
   font-size:14px;
 }
