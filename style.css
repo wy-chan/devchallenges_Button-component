@@ -37,7 +37,7 @@ main{
   padding-left: 317px;
   margin-bottom: 100px;
 }
-h1{
+main > h1{
   margin-bottom:79px;
   padding: 0;
   padding-top:40px;
@@ -47,7 +47,7 @@ h1{
   font-size: 24px;
 }
 
-h2{
+header > h2{
 font-family: Poppins;
 font-style: normal;
 font-weight: 600;
@@ -63,10 +63,10 @@ h2 em{
 p, span{
   font-size: 12px;
 }
-.material-icons{
+.btn> .material-icons{
   font-size: 12px;
 }
-.btn-icon{
+.btn.btn-icon{
   display: flex;
   align-items: center;
   column-gap:10px;
@@ -92,38 +92,38 @@ border-radius: 6px;
 font-size: 14px;
 font-weight: 500;
 }
-.btn-default{
+.btn.btn-default{
 background: #E0E0E0;
 }
-.btn-default,.btn-primary, .btn-secondary, .btn-danger{
+.btn.btn-default,.btn.btn-primary, .btn.btn-secondary, .btn.btn-danger{
   box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
 }
-.no-shadow{
+.btn.no-shadow{
   box-shadow: none;
 }
-.btn-default:hover, .btn-default:focus, .default-hover{
+.btn.btn-default:hover, .btn.btn-default:focus, .btn.default-hover{
 background: #AEAEAE;  
 }
-.btn-outline-primary:hover, .btn-outline-primary:focus, .primary-focus{
+.btn.btn-outline-primary:hover, .btn.btn-outline-primary:focus, .btn.primary-focus{
 background: rgba(41, 98, 255, 0.1);
 color: #3D5AFE;
 }
-.btn-link{
+.btn.btn-link{
   text-decoration: none;
 }
-.btn-link:hover, .btn-link:focus, .link-hover{
+.btn.btn-link:hover, .btn.btn-link:focus, .btn.link-hover{
   background: rgba(41, 98, 255, 0.1);
 }
-.btn-primary:hover,.btn-primary:focus, .primary-hover{
+.btn.btn-primary:hover,.btn.btn-primary:focus, .btn.primary-hover{
  background: #0039CB;  
 }
-.btn-secondary{
+.btn.btn-secondary{
   text: white;
 }
-.btn-secondary:hover,.btn-secondary:focus, .secondary-hover{
+.btn.btn-secondary:hover,.btn.btn-secondary:focus, .btn.secondary-hover{
 background: #1C313A; 
 }
-.btn-danger:hover,.btn-danger:focus, .danger-hover{
+.btn.btn-danger:hover,.btn.btn-danger:focus, .btn.danger-hover{
 background: #9A0007;
 }
 
