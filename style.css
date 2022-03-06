@@ -156,23 +156,23 @@ input{
 border-radius: 8px;
 font-size: 14px;
 }
-.input-default-size{
+div > .input-default-size{
   height: 56px;
   width: 200px;
 }
 
-.input-default{
+div > .input-default{
   border: 1px solid #828282;
   border-radius: 8px;
   padding-left:12px;
 }
-.input-default:hover, .input-default-hover, .input-error:hover, .input-error-hover{
+div > .input-default:hover, div > .input-default-hover, div > .input-error:hover, div > .input-error-hover{
   border: 1px solid #333333;
   + label{
   color:#333333;
 }
 }
-.input-default:focus, .input-default-focus{
+div > .input-default:focus, div >  .input-default-focus{
   outline: none !important;
   border: 1px solid #2962FF;
   + label{
@@ -180,12 +180,12 @@ font-size: 14px;
 }
 }
 
-.input-default:disabled{
+div > .input-default:disabled{
   outline: none !important;
   border: none;
   background: #F2F2F2;
 }
-.input-error, .input-error:focus, .input-error-focus{
+div > .input-error, div > .input-error:focus, div >  .input-error-focus{
   outline: none !important;
   border: 1px solid #D32F2F;
   + label{
@@ -194,19 +194,19 @@ font-size: 14px;
 
 }
 
-.help-block{
+div >  .help-block{
   color: #828282;
 }
-.help-text-error{
+div >  .help-text-error{
   color:#D32F2F;
 }
 
-.input-icon-box{
+div > .input-icon-box{
   display: flex;
   align-items: center;
 }
 
-.input-with-icon-start{
+div > .input-with-icon-start{
 padding-left:45px;
 }
 
