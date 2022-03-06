@@ -48,7 +48,8 @@ Create a reusable input with all the states in the design and a page displaying 
 - HTML
 - CSS
 - JavaScript
-- React
+- [Bootstrap](https://getbootstrap.com/)
+- [React](https://reactjs.org/)
 
 ## Features
 
