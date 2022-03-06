@@ -1,5 +1,4 @@
-import React from 'react';
-import ReactDOM from "react-dom";
+
 
 class Inputs extends React.Component{
   constructor(props){
@@ -156,4 +155,3 @@ class Inputs extends React.Component{
   }
 }
 
-export default Inputs;
