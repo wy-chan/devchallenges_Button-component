@@ -1,8 +1,3 @@
-import React, { Component } from 'react';
-import ReactDOM from "react-dom" ;
-import Buttons from './button_component/Buttons.js';
-import Inputs from './input_component/Inputs.js';
-
 class MyApp extends React.Component{
   constructor(props){
     super(props);
@@ -51,6 +46,8 @@ class MyApp extends React.Component{
   render(){
     return(
 <div id="nav-main-div">
+    <script src="./button_component/Buttons.js" type="text/babel"></script>
+    <script src="./input_component/Inputs.js" type="text/babel"></script>
 <nav id="navbar">
 <header><h2><em>Dev</em>challenges.io</h2></header>
 <ul style={{ listStyleType: 'none' }}>
