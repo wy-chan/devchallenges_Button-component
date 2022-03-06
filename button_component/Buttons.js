@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
+import ReactDOM from "react-dom" ;
 
 class Buttons extends React.Component{
   constructor(props){
