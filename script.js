@@ -40,9 +40,9 @@ class MyApp extends React.Component{
   showPage(){
     switch(this.state.currentPage){
       case"Inputs": 
-        return <Inputs/ >;
+        return script1;
       break;
-      default: return  <Buttons/ >;
+      default: return  script;
     }
   }
  
