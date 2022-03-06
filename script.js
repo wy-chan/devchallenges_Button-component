@@ -10,6 +10,20 @@ class MyApp extends React.Component{
     this.closeButton=this.closeButton.bind(this);
     this.showButton=this.showButton.bind(this);
   }
+  
+  componentDidMount () {
+    const script = document.createElement("script");
+    const script1 = document.createElement("script1");
+
+    script.src = "./input_component/Inputs.js";
+    script.async = true;
+    
+    script1.src = "./input_component/Buttons.js";
+    script1.async = true;
+
+    document.body.appendChild(script);
+    document.body.appendChild(script1);
+}
 
   handlePage(event){
     this.closeButton(this.state.currentBtnId);
@@ -26,9 +40,9 @@ class MyApp extends React.Component{
   showPage(){
     switch(this.state.currentPage){
       case"Inputs": 
-        return <script src="./input_component/Inputs.js" type="text/babel"></script>;
+        return <Inputs/ >;
       break;
-      default: return  <script src="./button_component/Buttons.js" type="text/babel"></script>
+      default: return  <Buttons/ >;
     }
   }
  
