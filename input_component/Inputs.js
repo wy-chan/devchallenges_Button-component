@@ -102,7 +102,7 @@ class Inputs extends React.Component{
     <div class="input-box">
       <p class="notes">&lt;Input value=”text” /&gt;</p> 
       <div class="input-label-box">
-      <input placeholder="Placeholder" value="Text" class="input-default input-default-size"/>
+      <input placeholder="Placeholder" defaultValue="Text" class="input-default input-default-size"/>
       <label class="label">Label</label> 
       </div>
     </div>
