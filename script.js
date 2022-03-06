@@ -26,9 +26,9 @@ class MyApp extends React.Component{
   showPage(){
     switch(this.state.currentPage){
       case"Inputs": 
-        return <Inputs/>;
+        return <script src="./input_component/Inputs.js" type="text/babel"></script>;
       break;
-      default: return <Buttons />
+      default: return  <script src="./button_component/Buttons.js" type="text/babel"></script>
     }
   }
  
@@ -45,9 +45,7 @@ class MyApp extends React.Component{
 
   render(){
     return(
-<div id="nav-main-div">
-    <script src="./button_component/Buttons.js" type="text/babel"></script>
-    <script src="./input_component/Inputs.js" type="text/babel"></script>
+<div id="nav-main-div">   
 <nav id="navbar">
 <header><h2><em>Dev</em>challenges.io</h2></header>
 <ul style={{ listStyleType: 'none' }}>
