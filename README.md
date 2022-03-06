@@ -3,9 +3,9 @@
 ## Contents
    
    - <a href="./button_component">Button Component</a>
-   <kbd>
-   <img src="./images/screenshot_button.png" alt="screenshot" height="250">
-   </kbd>
+   
+   |<img src="./images/screenshot_button.png" alt="screenshot" height="250">|
+
    
    - <a href="./input_component">Input Component</a>
  
