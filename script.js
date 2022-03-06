@@ -1,4 +1,4 @@
-import React from 'react';
+import React, Component from 'react';
 import ReactDOM from "react-dom" ;
 import Buttons from './button_component/Buttons';
 import Inputs from './input_component/Inputs';
