@@ -28,6 +28,7 @@ li > .nav-link{
 li > .link-active, li > .nav-link:hover{
   color: #090F31;
   font-weight: bold;
+  cursor:pointer;
 }
 
 main{
@@ -149,7 +150,7 @@ footer em{
   display: flex;
   flex-direction: column-reverse;/*label color can only be changed if the label is behind the input, so I put it behind and reversed it.*/
 }
-.label{
+div > .label{
   font-size: 12px;
 }
 input{
@@ -168,14 +169,14 @@ div > .input-default{
 }
 div > .input-default:hover, div > .input-default-hover, div > .input-error:hover, div > .input-error-hover{
   border: 1px solid #333333;
-  + label{
+  + div > label{
   color:#333333;
 }
 }
 div > .input-default:focus, div >  .input-default-focus{
   outline: none !important;
   border: 1px solid #2962FF;
-  + label{
+  + div > label{
   color:#2962FF;
 }
 }
@@ -188,7 +189,7 @@ div > .input-default:disabled{
 div > .input-error, div > .input-error:focus, div >  .input-error-focus{
   outline: none !important;
   border: 1px solid #D32F2F;
-  + label{
+  + div > label{
   color:#D32F2F;
 }
 
