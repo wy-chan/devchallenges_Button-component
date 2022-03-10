@@ -10,20 +10,6 @@ class MyApp extends React.Component{
     this.closeButton=this.closeButton.bind(this);
     this.showButton=this.showButton.bind(this);
   }
-  
-  componentDidMount () {
-    const script = document.createElement("script");
-    const script1 = document.createElement("script1");
-
-    script.src = "./input_component/Inputs.js";
-    script.async = true;
-    
-    script1.src = "./input_component/Buttons.js";
-    script1.async = true;
-
-    document.body.appendChild(script);
-    document.body.appendChild(script1);
-}
 
   handlePage(event){
     this.closeButton(this.state.currentBtnId);
