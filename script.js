@@ -44,7 +44,7 @@ class MyApp extends React.Component{
   }
   
   toTop(){
-    window.scrollTo(0, 0);
+   window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   render(){
