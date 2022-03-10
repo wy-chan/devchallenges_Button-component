@@ -1,3 +1,5 @@
+
+
 class MyApp extends React.Component{
   constructor(props){
     super(props);
@@ -26,9 +28,9 @@ class MyApp extends React.Component{
   showPage(){
     switch(this.state.currentPage){
       case"Inputs": 
-        return script1;
+     ;
       break;
-      default: return  script;
+      default: ;
     }
   }
  
