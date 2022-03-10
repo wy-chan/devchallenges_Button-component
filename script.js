@@ -28,9 +28,9 @@ class MyApp extends React.Component{
   showPage(){
     switch(this.state.currentPage){
       case"Inputs": 
-      returns <Inputs />;
+      return <Inputs />;
       break;
-      default:  returns <Buttons />;
+      default:  return <Buttons />;
     }
   }
  
