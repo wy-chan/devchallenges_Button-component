@@ -9,6 +9,7 @@ class MyApp extends React.Component{
     this.showPage=this.showPage.bind(this);
     this.closeButton=this.closeButton.bind(this);
     this.showButton=this.showButton.bind(this);
+    this.toTop=this.toTop.bind(this);
   }
 
   handlePage(event){
@@ -21,6 +22,7 @@ class MyApp extends React.Component{
     });
     
     this.showPage();
+    this.toTop();
   }
   
   showPage(){
@@ -39,9 +41,11 @@ class MyApp extends React.Component{
   showButton(id){
     var e=document.getElementById(id);
     e.classList.add("link-active");
-    
   }
   
+  toTop(){
+    window.scrollTo(0, 0);
+  }
 
   render(){
     return(
