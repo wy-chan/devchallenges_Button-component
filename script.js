@@ -53,8 +53,8 @@ class MyApp extends React.Component{
 <nav id="navbar">
 <header><h2><em>Dev</em>challenges.io</h2></header>
 <ul style={{ listStyleType: 'none' }}>
-    <li><a class="nav-link" id="nav-buttons" onClick={this.handlePage}>Buttons</a></li>
-    <li><a class="nav-link link-active" id="nav-inputs" onClick={this.handlePage}>Inputs</a></li>
+    <li><a className="nav-link" id="nav-buttons" onClick={this.handlePage}>Buttons</a></li>
+    <li><a className="nav-link link-active" id="nav-inputs" onClick={this.handlePage}>Inputs</a></li>
 </ul>
 </nav>
 <main>
