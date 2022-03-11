@@ -11,7 +11,7 @@ class Buttons extends React.Component{
   
      <div className="button-box">
      <p>&lt; Button /&gt;</p> 
-     <button class="btn btn-default">Default</button>
+     <button className="btn btn-default">Default</button>
      </div>
   
      <div className="button-box">
