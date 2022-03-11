@@ -38,7 +38,7 @@ div > .input-default:focus, div >  .input-default-focus{
   color:#2962FF;
 }
 }
-.input-default-focus +  .label{
+.input-default-focus + label{
   color:#2962FF;
 }
 div > .input-default:disabled{
