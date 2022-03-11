@@ -37,7 +37,9 @@
 
 ## Overview
 
-<img src="https://raw.githubusercontent.com/wy-chan/devchallenges_components/main/images/screenshot_button.png" alt="screenshot" height="300">
+   <kbd>
+   <img src="https://raw.githubusercontent.com/wy-chan/devchallenges_components/main/images/screenshot_button.png" alt="screenshot" height="400">
+   </kbd>
 
 See demo here: https://wy-chan.github.io/devchallenges_components/
 
