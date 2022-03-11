@@ -1,0 +1,104 @@
+.input-box{
+  width:270px;
+}
+.input-box-L{
+  width:356px;
+}
+.input-label-box{
+  display: flex;
+  flex-direction: column-reverse;/*label color can only be changed if the label is behind the input, so I put it behind and reversed it.*/
+}
+div > .label{
+  font-size: 12px;
+}
+input{
+border-radius: 8px;
+font-size: 14px;
+}
+div > .input-default-size{
+  height: 56px;
+  width: 200px;
+}
+
+div > .input-default{
+  border: 1px solid #828282;
+  border-radius: 8px;
+  padding-left:12px;
+}
+div > .input-default:hover, div > .input-default-hover, div > .input-error:hover, div > .input-error-hover{
+  border: 1px solid #333333;
+  + div > label{
+  color:#333333;
+}
+}
+div > .input-default:focus, div >  .input-default-focus{
+  outline: none !important;
+  border: 1px solid #2962FF;
+  + div > label{
+  color:#2962FF;
+}
+}
+
+div > .input-default:disabled{
+  outline: none !important;
+  border: none;
+  background: #F2F2F2;
+}
+div > .input-error, div > .input-error:focus, div >  .input-error-focus{
+  outline: none !important;
+  border: 1px solid #D32F2F;
+  + div > label{
+  color:#D32F2F;
+}
+
+}
+
+div >  .help-block{
+  color: #828282;
+}
+div >  .help-text-error{
+  color:#D32F2F;
+}
+
+div > .input-icon-box{
+  display: flex;
+  align-items: center;
+}
+
+div > .input-with-icon-start{
+padding-left:45px;
+}
+
+div > .input-icon{
+  font-size: 18px;
+  color: #828282;
+}
+.input-icon-start{
+  position: relative;
+  top:-37px;
+  left:12px;
+}
+.input-icon-end{
+  position: relative;
+  top:-37px;
+  left:172px;
+}
+div > .form-control:focus{
+    box-shadow:none;
+}
+div > .form-control-sm, div > .form-control-md, div >  .form-control-lg{
+  width:200px;
+  font-size:14px;
+}
+.input-box-f{
+  width:100%;
+}
+.input-fullwidth{
+  height:56px;
+}
+.textarea{
+  padding-top:18px;
+  padding-left:12px;
+  line-height:28.5px;
+}
+
