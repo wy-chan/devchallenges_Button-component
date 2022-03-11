@@ -37,7 +37,7 @@
 
 ## Overview
 
-<img src="" alt="https://raw.githubusercontent.com/wy-chan/devchallenges_components/main/images/input_screen.png" height="400">
+<img src="alt="https://raw.githubusercontent.com/wy-chan/devchallenges_components/main/images/input_screen.png" height="400">
 
 See demo here: https://wy-chan.github.io/devchallenges_components/
 
