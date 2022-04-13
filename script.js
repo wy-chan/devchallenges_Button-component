@@ -27,6 +27,8 @@ class MyApp extends React.Component{
       currentBtnId: btn
     });
     this.showButton(btn);
+    this.showPage(page);
+    this.toTop();
   }
   
   handlePage(event){
@@ -37,15 +39,15 @@ class MyApp extends React.Component{
       currentPage : event.target.text,
       currentBtnId: event.target.id
     });
-
+    this.toTop();
   }
 
-  showPage(){
-    switch(this.state.currentPage){
+  showPage(page){
+    switch(page){
       case"Inputs": 
-      return <Inputs />;
+      return (this.state.currentPage == "Inputs")?<Inputs />: null;
       break;
-      default:  return <Buttons />;
+      default: return (this.state.currentPage != "Inputs")?<Buttons />: null;
     }
   }
 
@@ -75,10 +77,10 @@ class MyApp extends React.Component{
 </nav>
 <main>
   <div id="button">
-    <Buttons />
+   {this.showPage("Buttons")} 
   </div>
   <div id="input">
-    <Inputs />
+   {this.showPage("Inputs")} 
   </div>
 </main>
 </div>
