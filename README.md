@@ -2,11 +2,11 @@
    
    ### <a href="./button_component">Button Component</a>
    <kbd>
-   <img src="./images/screenshot_button.png" alt="screenshot" height="250">
+   <a href="./button_component"><img src="./images/screenshot_button.png" alt="screenshot" height="250"></a>
    </kbd>
    
    ### <a href="./input_component">Input Component</a>
    
    <kbd>
-   <img src="./images/input_screen.png" alt="screenshot" height="250">
+   <a href="./input_component"><img src="./images/input_screen.png" alt="screenshot" height="250"></a>
    </kbd>

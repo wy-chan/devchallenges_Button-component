@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://wy-chan.github.io/devchallenges_components">
+    <a href="https://wy-chan.github.io/devchallenges_components/#button">
       Demo
     </a>
     <span> | </span>
