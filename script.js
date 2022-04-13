@@ -12,6 +12,16 @@ class MyApp extends React.Component{
     this.toTop=this.toTop.bind(this);
   }
 
+  componentDidMount() {
+    let regex = /#[a-z]+$/i;
+    let page = window.location.href.match(regex)[0];
+    (page == "#input")? page == "Inputs":page="Buttons";
+    console.log(window.location.href.match(regex)[0]);
+    this.setState({
+      currentPage: page,
+    })
+  }
+  
   handlePage(event){
     this.closeButton(this.state.currentBtnId);
     this.showButton(event.target.id);
@@ -20,11 +30,9 @@ class MyApp extends React.Component{
       currentPage : event.target.text,
       currentBtnId: event.target.id
     });
-    
-    this.showPage();
-    this.toTop();
+
   }
-  
+
   showPage(){
     switch(this.state.currentPage){
       case"Inputs": 
@@ -33,7 +41,7 @@ class MyApp extends React.Component{
       default:  return <Buttons />;
     }
   }
- 
+
   closeButton(id){
     var e=document.getElementById(id);
     e.classList.remove("link-active");
@@ -53,12 +61,17 @@ class MyApp extends React.Component{
 <nav id="navbar">
 <header><h2><em>Dev</em>challenges.io</h2></header>
 <ul style={{ listStyleType: 'none' }}>
-    <li><a className="nav-link" id="nav-buttons" onClick={this.handlePage}>Buttons</a></li>
-    <li><a className="nav-link link-active" id="nav-inputs" onClick={this.handlePage}>Inputs</a></li>
+    <li><a className="nav-link" id="nav-buttons" onClick={this.handlePage} href="#button">Buttons</a></li>
+    <li><a className="nav-link link-active" id="nav-inputs" onClick={this.handlePage} href="#input">Inputs</a></li>
 </ul>
 </nav>
 <main>
-{this.showPage()}
+  <div id="button">
+    <Buttons />
+  </div>
+  <div id="input">
+    <Inputs />
+  </div>
 </main>
 </div>
  

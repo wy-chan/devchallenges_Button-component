@@ -5,7 +5,7 @@ class Buttons extends React.Component{
   }
   render(){
     return(
-    <section id="buttons-div">
+    <section id="buttons">
     <h1>Buttons</h1>
     <div className="button-group">
   
